@@ -1,0 +1,19 @@
+body{
+background-color: black;
+background-size: cover;
+background-repeat: no-repeat;
+color: white;
+height: 100%;
+margin: 0;
+box-shadow: none;
+overflow: hidden;
+}
+#image {
+height: 32px;
+width: 32px;
+background: 
+url('sprites/kokoro.png') 0px 0px;
+position: fixed;
+left: 0;
+bottom: 0%;
+}   
