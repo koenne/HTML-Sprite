@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <link rel="shortcut icon" type="image/jpg" href="../favicon.ico"/>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>koenne</title>
+    </head>
+    <style>
+        body{
+            background-image: url("img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100%;
+    margin: 0;
+    box-shadow: none;
+    overflow: hidden;
+        }
+        #image {
+        height: 32px;
+        width: 32px;
+        background: 
+        url('sprites/kokoro.png') 0px 0px;
+        position: fixed;
+        left: 0;
+        bottom: 0%;
+        }   
+    </style>
+    <body>
+        <script src='dir.php'></script>
+        <button onclick="show()">Turn info on/off</button>
+          <div id="sprite-information">
+                <img id="imageChar">
+                <div id="number"></div>
+                <div id="character"></div>
+                <div id="time"></div>
+                <div id="amount"></div>
+                <div id="height"></div>
+                <div id="width"></div>
+          </p>
+        </div>
+        <div id="image"></div>
+        <script src='SpriteScriptModern.js'></script>
+    </body> 
+</html>
