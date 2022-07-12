@@ -15,12 +15,23 @@
                 <div id="number"></div>
                 <div id="character"></div>
                 <div id="time"></div>
-                <div id="amount"></div>
+                <div id="time2"></div>
                 <div id="height"></div>
                 <div id="width"></div>
           </p>
         </div>
+        <div class="buttoncontainer">
+            <button class="walkButton" onclick="DoubleSpeed()">x2</button>
+            <button class="walkButton" onclick="GoUp()">↑</button>
+            <button class="walkButton" onclick="DoubleSlow()">-x2</button>
+            <button class="walkButton" onclick="GoLeft()">←</button>
+            <button class="walkButton" id="stopButton" onclick="StopWalking()">Stop</button>
+            <button class="walkButton" onclick="GoRight()">→</button>
+            <button class="walkButton" onclick="Reset()">Reset</button>
+            <button class="walkButton" onclick="GoDown()">↓</button>
+            <button class="walkButton" id="hideButton" onclick="Hide()">Hide</button>
+        </div>
         <div id="image"></div>
-        <script src='SpriteScriptModern.js'></script>
+        <script src='SpriteScript.js'></script>
     </body> 
 </html>
