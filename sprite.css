@@ -1,7 +1,7 @@
 body{
-background-color: black;
 background-size: cover;
 background-repeat: no-repeat;
+background-color: #000000;
 color: white;
 height: 100%;
 margin: 0;
@@ -12,8 +12,36 @@ overflow: hidden;
 height: 32px;
 width: 32px;
 background: 
-url('sprites/kokoro.png') 0px 0px;
+url('sprites/alice.png') 0px 0px;
 position: fixed;
 left: 0;
-bottom: 0%;
+top: 0;
 }   
+.buttoncontainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 23vh;
+    float: right;
+    position:fixed;
+    bottom:0;
+    right:0;
+    background-color: #ffffff3c;
+    border: 0.4vh solid #ffffff;
+    border-radius: 2vh;
+}
+
+.walkButton, .hiddenButton{
+    width: 7vh;
+    height: 7vh;
+    border-radius: 1.3vh;
+    border: 0vh solid #ffffff;
+    font-size: 1.5vh;
+    background-color: #ffffff00;
+}
+button{
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff50;
+    color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
